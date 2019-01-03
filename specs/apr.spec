@@ -20,6 +20,11 @@ URL:                            https://apr.apache.org/
 Source0:                        https://www.apache.org/dist/apr/%{name}-%{version}.tar.bz2
 Source1:                        apr-wrapper.h
 
+# METASTORE - [
+# Signature
+Source900:                      https://apache.org/dist/apr/%{name}-%{version}.tar.bz2.asc
+# ] - METASTORE
+
 Patch1:                         apr-1.6.3-r1834495.patch
 Patch2:                         apr-1.2.2-locktimeout.patch
 Patch3:                         apr-1.2.2-libdir.patch
