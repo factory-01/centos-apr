@@ -30,7 +30,7 @@ Patch2:                         apr-1.2.2-locktimeout.patch
 Patch3:                         apr-1.2.2-libdir.patch
 Patch4:                         apr-1.2.7-pkgconf.patch
 
-BuildRequires:                  gcc, autoconf, libtool, libuuid-devel, python3
+BuildRequires:                  gcc, autoconf, libtool, libuuid-devel, python%{python3_pkgversion}
 # To enable SCTP support
 BuildRequires:                  lksctp-tools-devel
 
